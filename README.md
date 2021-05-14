@@ -6,4 +6,5 @@
 WORKFLOW:
 STEP 1: Collect BME688 sensor data from 4 different dustbins.
 STEP 2: Mapping the number of days required for hazardous gas release from the bin with temperature and pressure data.
-STEP 3: Final Prototype.
+STEP 3: User notification about the status of the bin(Currently OLED to display the status of the bin). 
+STEP 4: Final Prototype.
