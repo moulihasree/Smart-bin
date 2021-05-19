@@ -35,3 +35,9 @@ Estimating the air quality beforehand with the knowledge of previous ambient tem
 
 ## Evaluation plan:
 ### If the smart-bin is capable to send the IAQ and waste level to the user's mobile phone through the internet, and gives notifications to dispose the waste at the right time, then the project would be successful.
+
+## Reference:
+* [Newfangled Immaculate Trash Can Tracking System](https://www.academia.edu/download/62231884/5_IJRASET2652323-2820200229-105349-5h9jnt.pdf)
+* [Smart dustbin based on IOT](https://www.researchgate.net/publication/325116872_Smart_dustbin_based_on_IOT)
+
+
