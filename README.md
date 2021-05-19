@@ -1,14 +1,15 @@
 # Smart-bin
 ## Problem:
-The undisposed waste in our homes eventually starts to decompose after a few days and releases harmful gases like methane, sulphur dioxide, nitrogen dioxide, etc. 
+The undisposed waste in our homes starts to decompose after a few days and releases harmful gases like methane, sulphur dioxide, nitrogen dioxide, etc. 
 When these gases are inhaled by us it causes headache, mood swing, breathing problems, lung disease, etc.
 
 ## Solution:
-To build a Smart-bin that tracks the air quality in it and waste level, and notifies the user via a mobile app to dispose the waste once the air gets polluted or when the bin is full. The Smart-bin will also be helpful for the people with smell disorders like Anosmia and Hyposmia. The bin is connected to the internet and the data is sent through MQTT protocol.
+To build a Smart-bin that tracks the air quality in it and waste level, and notifies the user via a mobile app to dispose the waste once the air gets polluted or when the bin is full. The Smart-bin will also be helpful for the people with smell disorders like Anosmia and Hyposmia. The bin is connected to the internet and the data is sent through MQTT protocol. The smart-bin consists of a BME688 gas sensor to detect the IAQ, an ultrasonic sensor to detect the waste level, an Adafruit Huzzah32 to get the sensor data and send the data through internet, an OLED display to display the data locally, and a battery to power the system.
 
 ## Mobile app features:
 * Display the Index of air quality (IAQ) in the bin.
 * Display the waste level.
+* Give notification to dispose the waste.
 
 ## Optional features:
 Estimating the air quality beforehand with the knowledge of previous ambient temperature, pressure and air quality inside the bin using the environmental sensor BME688.
