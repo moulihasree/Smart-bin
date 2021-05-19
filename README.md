@@ -1,11 +1,10 @@
 # Smart-bin
-##Problem:
+## Problem:
 The undisposed waste in our homes eventually starts to decompose after a few days and releases harmful gases like methane, sulphur dioxide, nitrogen dioxide, etc. 
 When these gases are inhaled by us it causes headache, mood swing, breathing problems, lung disease, etc.
 
 ## Solution:
-To build a Smart-bin that tracks the air quality in it and waste level, and notifies the user via a mobile app to dispose the waste once the air gets polluted or when the bin is full.
-The Smart-bin will also be helpful for the people with smell disorders like Anosmia and Hyposmia.
+To build a Smart-bin that tracks the air quality in it and waste level, and notifies the user via a mobile app to dispose the waste once the air gets polluted or when the bin is full. The Smart-bin will also be helpful for the people with smell disorders like Anosmia and Hyposmia. The bin is connected to the internet and the data is sent through MQTT protocol.
 
 ## Mobile app features:
 * Display the Index of air quality (IAQ) in the bin.
@@ -15,17 +14,22 @@ The Smart-bin will also be helpful for the people with smell disorders like Anos
 Estimating the air quality beforehand with the knowledge of previous ambient temperature, pressure and air quality inside the bin using the environmental sensor BME688.
 
 ## WORKFLOW:
-STEP 1: Collect BME688 sensor data from 4 different dustbins.
-STEP 2: Mapping the number of days required for hazardous gas release from the bin with temperature and pressure data.
-STEP 3: User notification about the status of the bin(Currently OLED to display the status of the bin). 
-STEP 4: Final Prototype.
+* STEP 1: Research previous projects and study the datasheet of the components.
+* STEP 2: Establish an communication between the BME688 sensor and the Adafruit Huzzah32.
+* STEP 3: Establish an communication between the OLED display and the Adafruit Huzzah32.
+* STEP 4: Establish an communication between the HC-SR 04 ultrasonic sensor and the Adafruit Huzzah32.
+* STEP 5: Record sensor data from various dustbins at different temperature (room, kitchen and balcony)
+* STEP 6: Send the sensor data to the MQTT server.
+* STEP 7: Create a mobile app to view the bin status.
+* STEP 8: Build the final prototype
 
 ## TIME PLAN:
-WEEK 1: Interfacing the gas and temperature sensors with the microcontroller
-WEEK 2: Collecting the gas and temperature sensor data from the 4 dustbins
-WEEK 3:
-WEEK 4:
-WEEK 5:
-WEEK 6:
-WEEK 7:
-WEEK 8: Final prototype 
+* WEEK 1: Research
+* WEEK 2: Get data from BME688 sensor, start developing mobile app 
+* WEEK 3: Diaplay data on the OLED display, work on the mobile app
+* WEEK 4: Get data from the ultrasonic sensor, work on the mobile app
+* WEEK 5: Send data to the MQTT server, work on the mobile app
+* WEEK 6: Test the smart-bin
+* WEEK 7: final adjustments
+* WEEK 8: Final prototype 
+
