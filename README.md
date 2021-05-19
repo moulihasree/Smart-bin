@@ -39,5 +39,6 @@ Estimating the air quality beforehand with the knowledge of previous ambient tem
 ## Reference:
 * [Newfangled Immaculate Trash Can Tracking System](https://www.academia.edu/download/62231884/5_IJRASET2652323-2820200229-105349-5h9jnt.pdf)
 * [Smart dustbin based on IOT](https://www.researchgate.net/publication/325116872_Smart_dustbin_based_on_IOT)
+* [Quick Statistics About Taste and Smell](https://www.nidcd.nih.gov/health/statistics/quick-statistics-taste-smell)
 
 
