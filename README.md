@@ -33,3 +33,5 @@ Estimating the air quality beforehand with the knowledge of previous ambient tem
 * WEEK 7: final adjustments
 * WEEK 8: Final prototype 
 
+## Evaluation plan:
+### If the smart-bin is capable to send the IAQ and the waste level to the user's mobile phone through the internet, and gives notifications to dispose the waste, then the project would be successful.
