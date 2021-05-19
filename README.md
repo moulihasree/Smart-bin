@@ -27,7 +27,7 @@ Estimating the air quality beforehand with the knowledge of previous ambient tem
 ## TIME PLAN:
 * WEEK 1: Research
 * WEEK 2: Get data from BME688 sensor, start developing mobile app 
-* WEEK 3: Diaplay data on the OLED display, work on the mobile app
+* WEEK 3: Display data on the OLED display, work on the mobile app
 * WEEK 4: Get data from the ultrasonic sensor, work on the mobile app
 * WEEK 5: Send data to the MQTT server, work on the mobile app
 * WEEK 6: Test the smart-bin
@@ -35,7 +35,7 @@ Estimating the air quality beforehand with the knowledge of previous ambient tem
 * WEEK 8: Final prototype 
 
 ## Evaluation plan:
-### If the smart-bin is capable to send the IAQ and waste level to the user's mobile phone through the internet, and gives notifications to dispose the waste at the right time, then the project would be successful.
+### If the smart-bin is capable of sending the IAQ and waste level to the user's mobile phone through the internet, and gives notifications to dispose the waste at the right time, then the project would be successful.
 
 ## Reference:
 * [Newfangled Immaculate Trash Can Tracking System](https://www.academia.edu/download/62231884/5_IJRASET2652323-2820200229-105349-5h9jnt.pdf)
