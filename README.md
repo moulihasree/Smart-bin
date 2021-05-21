@@ -1,10 +1,11 @@
 # Smart-bin
 ## Problem:
+Around 3.2 percent of Americans experience smell disorders like Anosmia and Hyposmia. 
 The undisposed waste in our homes starts to decompose after a few days and releases harmful gases like methane, sulphur dioxide, nitrogen dioxide, etc. 
-When these gases are inhaled by us it causes headache, mood swing, breathing problems, lung disease, etc.
+When these gases are inhaled by humans, it causes headache, mood swing, breathing problems, lung disease, etc. Since people with anosmia have no smell sense, they are in high risk to experiencing the above said health issues.
 
 ## Solution:
-To build a Smart-bin that tracks the air quality in it and waste level, and notifies the user via a mobile app to dispose the waste once the air gets polluted or when the bin is full. The Smart-bin will also be helpful for the people with smell disorders like Anosmia and Hyposmia. The bin is connected to the internet and the data is sent through MQTT protocol. The smart-bin consists of a BME688 gas sensor to detect the IAQ, an ultrasonic sensor to detect the waste level, an Adafruit Huzzah32 to get the sensor data and send the data through internet, an OLED display to display the data locally, and a battery to power the system.
+To build a Smart-bin that tracks the air quality in it and waste level, and notifies the user via a mobile app to dispose the waste once the air gets polluted or when the bin is full. The bin is connected to the internet and the data is sent through MQTT protocol. The smart-bin consists of a BME688 gas sensor to detect the IAQ, an ultrasonic sensor to detect the waste level, an Adafruit Huzzah32 to get the sensor data and send the data through internet, an OLED display to display the data locally, and a battery to power the system. One of the outputs from the BME688 sensor is the IAQ which indicates the pollution level in the air. This bin generates alert when the air is moderately polluted (IAQ: 151 - 200) and heavily polluted (IAQ: 201 - 250).
 
 ## Mobile app features:
 * Display the Index of air quality (IAQ) in the bin.
@@ -41,5 +42,4 @@ Estimating the air quality beforehand with the knowledge of previous ambient tem
 * [Newfangled Immaculate Trash Can Tracking System](https://www.academia.edu/download/62231884/5_IJRASET2652323-2820200229-105349-5h9jnt.pdf)
 * [Smart dustbin based on IOT](https://www.researchgate.net/publication/325116872_Smart_dustbin_based_on_IOT)
 * [Quick Statistics About Taste and Smell](https://www.nidcd.nih.gov/health/statistics/quick-statistics-taste-smell)
-
-
+* [BME688 datasheet](https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme688-ds000.pdf)
